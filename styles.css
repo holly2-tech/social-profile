@@ -1,0 +1,33 @@
+body{
+    background-color: #524e4e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+h4 {
+    color: yellow;
+    margin-top: 15;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    cursor: pointer; /* Makes the cursor a hand to show it's interactive */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Makes the color change smooth instead of a sudden snap */
+}
+
+/* This rule only activates when the mouse is hovering over the <header> */
+header:hover {
+    background-color:grey; /* The vibrant green from the challenge design */
+    color: #333333; /* Dark text so it's readable against the bright green */
+}
