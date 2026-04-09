@@ -23,15 +23,24 @@
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: #fff; font-weight: bold; text-decoration: none; }
     .profile-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .profile-image__img {
       border-radius: 50%;
       width: 90px;
+      height: 90px;
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
   <div class="main">
     <div class="container">
-      <img src="./assets/images/avatar-jessica.jpeg" alt="Portrait of Jessica Randall" class="profile-image">
+      <div class="profile-image">
+        <img src="./assets/images/avatar-jessica.jpeg" alt="Portrait of Jessica Randall" class="profile-image__img">
+      </div>
       <h1>Jessica Randall</h1>
       <h4>London, United Kingdom</h4> 
       <h5>"Front-end developer and avid reader".</h5>
