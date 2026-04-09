@@ -4,35 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Jessica Randall - Front-end developer and avid reader based in London, United Kingdom. Connect with me on social media.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Jessica Randall | Social links profile">
+  <meta property="og:description" content="Front-end developer and avid reader based in London, United Kingdom">
+  <meta property="og:image" content="./assets/images/avatar-jessica.jpeg">
+  <meta property="og:url" content="./index.html">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Jessica Randall | Social links profile">
+  <meta property="twitter:description" content="Front-end developer and avid reader based in London, United Kingdom">
+  <meta property="twitter:image" content="./assets/images/avatar-jessica.jpeg">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   
-  <title>Frontend Mentor | Social links profile</title>
+  <title>Jessica Randall | Social links profile</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: #fff; font-weight: bold; text-decoration: none; }
     .profile-image {
       border-radius: 50%;
-      width: 90px; /* It's helpful to set a size so the circle looks consistent */
+      width: 90px;
     }
   </style>
 </head>
 <body>
-  <img src="./assets/images/avatar-jessica.jpeg" alt="Portrait of Jessica Randall" class="profile-image">
-  <h1>Jessica Randall</h1>
- <h4>London, United Kingdom</h4> 
-  <h5>"Front-end developer and avid reader".</h5>
-  <header>GitHub</header>
-  <header>Frontend Mentor</header>
-  <header>LinkedIn</header>
-  <header>Twitter</header>
-  <header>Instagram</header>
+  <div class="main">
+    <div class="container">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Portrait of Jessica Randall" class="profile-image">
+      <h1>Jessica Randall</h1>
+      <h4>London, United Kingdom</h4> 
+      <h5>"Front-end developer and avid reader".</h5>
+      <div class="profile-links">
+        <header>GitHub</header>
+        <header>Frontend Mentor</header>
+        <header>LinkedIn</header>
+        <header>Twitter</header>
+        <header>Instagram</header>
+      </div>
+    </div>
 
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </footer>
+  </div>
 </body>
 </html>
